@@ -28,7 +28,8 @@
   },
   "homepage": "https://github.com/mvader/react-es6-webpack-karma-boilerplate",
   "dependencies": {
-    "babel-runtime": "^6.9.2"
+    "babel-runtime": "^6.9.2",
+    "setimmediate": "^1.0.5"
   },
   "devDependencies": {
     "babel-core": "^6.9.1",

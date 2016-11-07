@@ -59,7 +59,7 @@ module.exports = {
     extensions: ['', '.js', '.jsx'],
     root: path.resolve(path.join(__dirname, 'src')),
   },
-  devtool: 'eval-source-map',
+  devtool: 'cheap-module',
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
